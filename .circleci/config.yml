@@ -31,7 +31,7 @@ jobs:
       - run: npm i
       - run: npm audit
 
-workflow:
+workflows:
   react_pipeline:
     jobs:
       - build
